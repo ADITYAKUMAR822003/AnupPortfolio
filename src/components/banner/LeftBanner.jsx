@@ -8,10 +8,9 @@ const LeftBanner = () => {
   const [text] = useTypewriter({
     words: [
       "Social Media Expert.",
-      "Security Agency.",
+      "Entrepreneur.",
       "Franchise Development.",
       "Business Development.",
-      "Elevator.",
       "Consultancy services IT and non-IT.",
     ],
     loop: true,
@@ -24,7 +23,8 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">Anup Nadgiri</span>
+          Hi, I'm{" "}
+          <span className="text-designColor capitalize">Anup Nadgiri</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -35,9 +35,10 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+          Successful track record of contributing at Senior Positions for more
+          than 7 years with Spa and salon industry and functional experience in
+          Training & Consulting, Operations, Quality, with leading organizations
+          across India, PUNE, MUMBAI, BANGLORE. Enthusiastic Learner!
         </p>
       </div>
       {/* Media */}

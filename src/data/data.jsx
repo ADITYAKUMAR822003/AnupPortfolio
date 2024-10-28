@@ -1,44 +1,43 @@
 /** @format */
 
-import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe } from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+import { MdSecurity, MdElevator } from "react-icons/md";
+import { IoIosBusiness, IoIosInformationCircle } from "react-icons/io";
+import { SiProgress } from "react-icons/si";
 
-// Features Data
 export const featuresData = [
   {
     id: 1,
     title: "Social Media Expert",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    des: "Skilled Social Media Expert with a proven ability to build brand awareness, engage audiences, and drive growth through strategic",
   },
   {
     id: 2,
-    icon: <AiFillAppstore />,
+    icon: <MdSecurity />,
     title: "Security Agency",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    des: "Providing trusted, comprehensive security solutions to safeguard assets, ensure safety, and deliver peace of mind.",
   },
   {
     id: 3,
     icon: <SiProgress />,
     title: "Franchise Development",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    des: "Franchise Development drives business expansion",
   },
   {
     id: 4,
-    icon: <FaMobile />,
+    icon: <IoIosBusiness />,
     title: "Business Development",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    des: "Business Development is the strategic pursuit of opportunities to drive growth, forge partnerships,",
   },
   {
     id: 5,
-    icon: <SiAntdesign />,
+    icon: <MdElevator />,
     title: "Elevator",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    des: "An elevator is a critical vertical transportation system, designed to efficiently move people or goods between floors in a building,",
   },
   {
     id: 6,
-    icon: <FaGlobe />,
+    icon: <IoIosInformationCircle />,
     title: "Consultancy services IT and non-IT",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    des: "Providing expert consultancy services in IT and non-IT sectors to drive strategic growth, optimize",
   },
 ];

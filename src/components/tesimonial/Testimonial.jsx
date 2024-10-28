@@ -97,7 +97,6 @@ const Testimonial = () => {
         <Title title="WHAT CLIENTS SAY" des="Testimonial" />
       </div>
       <div className="max-w-6xl mx-auto">
-        {/* ================ Slider One ================== */}
         <Slider {...settings}>
           <div className="w-full">
             <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
@@ -109,11 +108,11 @@ const Testimonial = () => {
                 />
                 <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
+                    Design and Collaboration
                   </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                  <h3 className="text-2xl font-bold">Shraddha Pawar</h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                    Graphic Designer
                   </p>
                 </div>
               </div>
@@ -123,7 +122,7 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
+                        Graphic Designer.
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
                         via Upwork - Mar 4, 2015 - Aug 30, 2021 test

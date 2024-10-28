@@ -1,18 +1,21 @@
 /** @format */
 
 import React from "react";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { logo } from "../../assets/index";
 
 const Footer = () => {
-  const facebookOpen = () => {
-    window.open("https://www.linkedin.com/in/anup-nadgiri", "_blank");
-  };
-  const twitterOpen = () => {
-    window.open("https://www.linkedin.com/in/anup-nadgiri", "_blank");
-  };
   const linkedinOpen = () => {
     window.open("https://www.linkedin.com/in/anup-nadgiri", "_blank");
+  };
+  const facebookOpen = () => {
+    window.open("https://www.facebook.com/share/4MPQdRwVkDogbkP9", "_blank");
+  };
+  const instagramOpen = () => {
+    window.open(
+      "https://www.instagram.com/annu_71671?utm_source=qr&igsh=MWtxYWhhd2hkZG92aA==",
+      "_blank"
+    );
   };
 
   return (
@@ -20,14 +23,14 @@ const Footer = () => {
       <div className="w-full h-full flex flex-col gap-8">
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
+          <span className="bannerIcon" onClick={linkedinOpen}>
+            <FaLinkedinIn />
+          </span>
           <span className="bannerIcon" onClick={facebookOpen}>
             <FaFacebookF />
           </span>
-          <span className="bannerIcon" onClick={twitterOpen}>
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon" onClick={linkedinOpen}>
-            <FaLinkedinIn />
+          <span className="bannerIcon" onClick={instagramOpen}>
+            <FaInstagram />
           </span>
         </div>
       </div>

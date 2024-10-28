@@ -10,6 +10,17 @@ import { navLinksdata } from "../../constants";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+
+  const facebookOpen = () => {
+    window.open("https://www.linkedin.com/in/anup-nadgiri", "_blank");
+  };
+  const twitterOpen = () => {
+    window.open("https://www.linkedin.com/in/anup-nadgiri", "_blank");
+  };
+  const linkedinOpen = () => {
+    window.open("https://www.linkedin.com/in/anup-nadgiri", "_blank");
+  };
+
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
@@ -77,13 +88,13 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
+                  <span className="bannerIcon" onClick={facebookOpen}>
                     <FaFacebookF />
                   </span>
-                  <span className="bannerIcon">
+                  <span className="bannerIcon" onClick={twitterOpen}>
                     <FaTwitter />
                   </span>
-                  <span className="bannerIcon">
+                  <span className="bannerIcon" onClick={linkedinOpen}>
                     <FaLinkedinIn />
                   </span>
                 </div>
