@@ -98,6 +98,8 @@ const Testimonial = () => {
       </div>
       <div className="max-w-6xl mx-auto">
         <Slider {...settings}>
+          {/* ================ Slider Ono ================== */}
+          
           <div className="w-full">
             <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
               <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
@@ -125,7 +127,7 @@ const Testimonial = () => {
                         Graphic Designer.
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        Instagram - Mar 4, 2016 - Aug 30, 2017
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -137,11 +139,14 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                    Working with Anup Nadgiri has been a transformative
+                    experience for our brand. Their creativity and attention to
+                    detail brought our vision to life in ways we never imagined.
+                    The designs were not only visually stunning but also
+                    perfectly aligned with our brand identity. Anup Nadgiri was
+                    a true professional, meeting deadlines and incorporating
+                    feedback seamlessly. I highly recommend their services to
+                    anyone in need of exceptional graphic design!
                   </p>
                 </div>
               </div>

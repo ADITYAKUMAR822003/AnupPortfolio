@@ -3,7 +3,7 @@
 import logo from "./images/logo.png";
 import bannerImg from "./images/bannerImg.png";
 import socialMedia from "./images/projects/socialMedia.jpg";
-// import securityAgency from "./images/projects/securityAgency.jpg";
+import securityAgency from "./images/projects/securityAgency.jpg";
 import franchiseDevelopment from "./images/projects/franchiseDevelopment.jpg";
 import businessDevelopment from "./images/projects/businessDevelopment.jpg";
 import elevator from "./images/projects/elevator.jpg";
@@ -17,7 +17,7 @@ export {
   logo,
   bannerImg,
   socialMedia,
-  // securityAgency,
+  securityAgency,
   franchiseDevelopment,
   businessDevelopment,
   elevator,

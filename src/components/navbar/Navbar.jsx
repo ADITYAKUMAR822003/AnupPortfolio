@@ -4,21 +4,24 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
-  const facebookOpen = () => {
-    window.open("https://www.linkedin.com/in/anup-nadgiri", "_blank");
-  };
-  const twitterOpen = () => {
-    window.open("https://www.linkedin.com/in/anup-nadgiri", "_blank");
-  };
   const linkedinOpen = () => {
     window.open("https://www.linkedin.com/in/anup-nadgiri", "_blank");
+  };
+  const facebookOpen = () => {
+    window.open("https://www.facebook.com/share/4MPQdRwVkDogbkP9", "_blank");
+  };
+  const instagramOpen = () => {
+    window.open(
+      "https://www.instagram.com/annu_71671?utm_source=qr&igsh=MWtxYWhhd2hkZG92aA==",
+      "_blank"
+    );
   };
 
   return (
@@ -58,9 +61,11 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                  Successful track record of contributing at Senior Positions
+                  for more than 7 years with Spa and salon industry and
+                  functional experience in Training & Consulting, Operations,
+                  Quality, with leading organizations across India, PUNE,
+                  MUMBAI, BANGLORE. Enthusiastic Learner!
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -88,14 +93,14 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
+                  <span className="bannerIcon" onClick={linkedinOpen}>
+                    <FaLinkedinIn />
+                  </span>
                   <span className="bannerIcon" onClick={facebookOpen}>
                     <FaFacebookF />
                   </span>
-                  <span className="bannerIcon" onClick={twitterOpen}>
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon" onClick={linkedinOpen}>
-                    <FaLinkedinIn />
+                  <span className="bannerIcon" onClick={instagramOpen}>
+                    <FaInstagram />
                   </span>
                 </div>
               </div>

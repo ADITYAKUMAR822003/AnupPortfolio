@@ -4,6 +4,7 @@ import React from "react";
 import Title from "../layouts/Title";
 import {
   socialMedia,
+  securityAgency,
   franchiseDevelopment,
   businessDevelopment,
   consultancyServices,
@@ -32,7 +33,7 @@ const Projects = () => {
         <ProjectsCard
           title="Security Agency"
           des="Ensuring safety and peace of mind, our security agency provides reliable, vigilant, and expertly trained personnel dedicated to protecting what matters most."
-          src={socialMedia}
+          src={securityAgency}
         />
         <ProjectsCard
           title="Franchise Development"
