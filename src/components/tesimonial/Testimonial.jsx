@@ -99,7 +99,7 @@ const Testimonial = () => {
       <div className="max-w-6xl mx-auto">
         <Slider {...settings}>
           {/* ================ Slider Ono ================== */}
-          
+
           <div className="w-full">
             <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
               <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
@@ -110,11 +110,11 @@ const Testimonial = () => {
                 />
                 <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Design and Collaboration
+                    Developement and Collaboration
                   </p>
-                  <h3 className="text-2xl font-bold">Shraddha Pawar</h3>
+                  <h3 className="text-2xl font-bold">Aditya kumar</h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Graphic Designer
+                    Android & iOS Developer
                   </p>
                 </div>
               </div>
@@ -124,10 +124,10 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Graphic Designer.
+                        Android & iOS Developer.
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        Instagram - Mar 4, 2016 - Aug 30, 2017
+                        via Upwork - Oct 16, 2024 - Present
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -139,14 +139,15 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Working with Anup Nadgiri has been a transformative
-                    experience for our brand. Their creativity and attention to
-                    detail brought our vision to life in ways we never imagined.
-                    The designs were not only visually stunning but also
-                    perfectly aligned with our brand identity. Anup Nadgiri was
-                    a true professional, meeting deadlines and incorporating
-                    feedback seamlessly. I highly recommend their services to
-                    anyone in need of exceptional graphic design!
+                    I had the pleasure of collaborating with Anup Nadgiri during
+                    the development of our latest app, and I couldn't be more
+                    impressed with their expertise. Their deep understanding of
+                    social media trends and user engagement strategies greatly
+                    enhanced our marketing approach. Their proactive
+                    communication and collaborative spirit made the entire
+                    process smooth and enjoyable. I highly recommend Anup
+                    Nadgiri to anyone looking to elevate their app's presence in
+                    the competitive digital landscape.
                   </p>
                 </div>
               </div>
@@ -164,11 +165,11 @@ const Testimonial = () => {
                 />
                 <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
+                    Developement and Collaboration
                   </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                  <h3 className="text-2xl font-bold">Shubhangi Kamble</h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                    Full Stack Web Developer
                   </p>
                 </div>
               </div>
@@ -178,10 +179,10 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
+                        Full Stack Web Developer.
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        via Upwork - Oct 16, 2024 - Present
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -193,11 +194,17 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                    I've had the pleasure of collaborating with Anup Nadgiri on
+                    several web development projects, and their expertise in
+                    social media has been invaluable. Their strategic approach
+                    to content and audience engagement has significantly
+                    enhanced our website's visibility and reach. Not only do
+                    they bring fresh, creative ideas to the table, but they also
+                    have a deep understanding of analytics that drives
+                    meaningful insights into our web traffic. Working alongside
+                    Anup Nadgiri has been a game-changer, and I highly recommend
+                    them for any project looking to boost online presence and
+                    engagement.
                   </p>
                 </div>
               </div>

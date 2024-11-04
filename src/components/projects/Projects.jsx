@@ -4,9 +4,9 @@ import React from "react";
 import Title from "../layouts/Title";
 import {
   socialMedia,
-  securityAgency,
-  franchiseDevelopment,
-  businessDevelopment,
+  webDevelopment,
+  appDevelopment,
+  seoDevelopment,
   consultancyServices,
   elevator,
 } from "../../assets/index";
@@ -20,8 +20,8 @@ const Projects = () => {
     >
       <div className="flex justify-center items-center text-center">
         <Title
-          title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
-          des="My Projects"
+          title="VISIT OUR PORTFOLIO AND KEEP YOUR FEEDBACK"
+          des="Our Projects"
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
@@ -31,19 +31,19 @@ const Projects = () => {
           src={socialMedia}
         />
         <ProjectsCard
-          title="Security Agency"
-          des="Ensuring safety and peace of mind, our security agency provides reliable, vigilant, and expertly trained personnel dedicated to protecting what matters most."
-          src={securityAgency}
+          title="Web Development"
+          des="Web development combines creative design and technical proficiency to build digital solutions that drive user engagement and business growth."
+          src={webDevelopment}
         />
         <ProjectsCard
-          title="Franchise Development"
-          des="Successful franchise development hinges on identifying the right partners, providing comprehensive training, and fostering a collaborative culture that drives collective success."
-          src={franchiseDevelopment}
+          title="App Development"
+          des="Our expertise in cross-platform development enables efficient, high-quality app delivery for iOS, Android, and web, maximizing reach and impact."
+          src={appDevelopment}
         />
         <ProjectsCard
-          title="Business Development"
-          des="Successful business development professionals leverage market insights, networking, and negotiation skills to drive transformative initiatives that propel organizations forward."
-          src={businessDevelopment}
+          title="SEO"
+          des="Strong on-page SEO, like effective title tags, meta descriptions, and internal linking, can boost your off-page efforts, leading to better authority and relevance."
+          src={seoDevelopment}
         />
         <ProjectsCard
           title="Elevator"

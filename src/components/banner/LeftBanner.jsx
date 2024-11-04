@@ -8,10 +8,6 @@ const LeftBanner = () => {
   const [text] = useTypewriter({
     words: [
       "Social Media Expert.",
-      "Entrepreneur.",
-      "Franchise Development.",
-      "Business Development.",
-      "Consultancy services IT and non-IT.",
     ],
     loop: true,
     typeSpeed: 20,

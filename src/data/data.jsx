@@ -1,8 +1,9 @@
 /** @format */
 
-import { MdSecurity, MdElevator } from "react-icons/md";
-import { IoIosBusiness, IoIosInformationCircle } from "react-icons/io";
-import { SiProgress } from "react-icons/si";
+import { MdElevator } from "react-icons/md";
+import { IoIosInformationCircle, IoIosPhonePortrait } from "react-icons/io";
+import { CgWebsite } from "react-icons/cg";
+import { TbSeo } from "react-icons/tb";
 
 export const featuresData = [
   {
@@ -12,20 +13,20 @@ export const featuresData = [
   },
   {
     id: 2,
-    icon: <MdSecurity />,
-    title: "Security Agency",
-    des: "Providing trusted, comprehensive security solutions to safeguard assets, ensure safety, and deliver peace of mind.",
+    icon: <CgWebsite />,
+    title: "Web Developement",
+    des: "Crafting responsive, accessible, and user-friendly interfaces is central to delivering a seamless and engaging web experience.",
   },
   {
     id: 3,
-    icon: <SiProgress />,
-    title: "Franchise Development",
-    des: "Franchise Development drives business expansion",
+    icon: <IoIosPhonePortrait />,
+    title: "App Developement",
+    des: "App development merges creative problem-solving with technical expertise to deliver impactful, user-driven products.",
   },
   {
     id: 4,
-    icon: <IoIosBusiness />,
-    title: "Business Development",
+    icon: <TbSeo />,
+    title: "SEO",
     des: "Business Development is the strategic pursuit of opportunities to drive growth, forge partnerships,",
   },
   {
