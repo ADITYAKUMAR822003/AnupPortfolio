@@ -32,27 +32,27 @@ const Projects = () => {
         />
         <ProjectsCard
           title="Web Development"
-          des="Web development combines creative design and technical proficiency to build digital solutions that drive user engagement and business growth."
+          des="Web development is the process of building, creating, and maintaining websites or web applications. It combines elements of design, programming and content creation to bring websites to life."
           src={webDevelopment}
         />
         <ProjectsCard
           title="App Development"
-          des="Our expertise in cross-platform development enables efficient, high-quality app delivery for iOS, Android, and web, maximizing reach and impact."
+          des="App development is an evolving field that requires a combination of technical skill, and strategic planning. We create applications that not only meet user expectations but also drive business growth."
           src={appDevelopment}
         />
         <ProjectsCard
           title="SEO"
-          des="Strong on-page SEO, like effective title tags, meta descriptions, and internal linking, can boost your off-page efforts, leading to better authority and relevance."
+          des="SEO is the strategic process of improving a website's visibility on search engines like Google. It involves optimizing content, structure, and technical aspects of a website to drive organic (non-paid) traffic."
           src={seoDevelopment}
         />
         <ProjectsCard
           title="Elevate Media"
-          des="At Elevate Media, we believe in crafting compelling narratives that elevate brands and capture attention. As a full-service digital media agency, our team is dedicated to delivering strategic, high-quality content that resonates with audiences across platforms."
+          des="We believe in crafting digital experiences that make an impact. Specializing in content creation, and digital strategy, our mission is to elevate brands by creating compelling stories and memorable visuals."
           src={elevator}
         />
         <ProjectsCard
           title="Prospera Social"
-          des="Prospera Social is dedicated to transforming brands through impactful digital strategies and data-driven solutions. We specialize in creating meaningful connections between businesses and their audiences, combining innovative content, targeted campaigns, and measurable outcomes to drive sustained growth."
+          des="We believe that every brand has a unique story to tell. Our team of skilled marketers, designers, and strategists collaborates closely with clients to uncover what makes their brand special."
           src={consultancyServices}
         />
       </div>

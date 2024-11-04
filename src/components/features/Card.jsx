@@ -1,7 +1,6 @@
 /** @format */
 
 import React from "react";
-import { HiArrowRight } from "react-icons/hi";
 
 const Card = ({ item: { title, des, icon } }) => {
   return (
@@ -25,9 +24,6 @@ const Card = ({ item: { title, des, icon } }) => {
               {title}
             </h2>
             <p className="base">{des}</p>
-            <span className="text-2xl text-designColor">
-              <HiArrowRight />
-            </span>
           </div>
         </div>
       </div>

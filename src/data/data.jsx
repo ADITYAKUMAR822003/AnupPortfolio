@@ -9,36 +9,36 @@ export const featuresData = [
   {
     id: 1,
     title: "Social Media Expert",
-    des: "Skilled Social Media Expert with a proven ability to build brand awareness, engage audiences, and drive growth through strategic",
+    des: "Skilled Social Media Expert with a strategic mindset, adept at crafting impactful content and driving engagement to elevate brand presence and connect with target audiences effectively.",
   },
   {
     id: 2,
     icon: <CgWebsite />,
     title: "Web Developement",
-    des: "Crafting responsive, accessible, and user-friendly interfaces is central to delivering a seamless and engaging web experience.",
+    des: "Web development is the process of building, creating, and maintaining websites or web applications. It combines elements of design, programming and content creation to bring websites to life.",
   },
   {
     id: 3,
     icon: <IoIosPhonePortrait />,
     title: "App Developement",
-    des: "App development merges creative problem-solving with technical expertise to deliver impactful, user-driven products.",
+    des: "App development is an evolving field that requires a combination of technical skill, and strategic planning. We create applications that not only meet user expectations but also drive business growth.",
   },
   {
     id: 4,
     icon: <TbSeo />,
     title: "SEO",
-    des: "Business Development is the strategic pursuit of opportunities to drive growth, forge partnerships,",
+    des: "SEO is the strategic process of improving a website's visibility on search engines like Google. It involves optimizing content, structure, and technical aspects of a website to drive organic (non-paid) traffic.",
   },
   {
     id: 5,
     icon: <MdElevator />,
     title: "Elevate Media",
-    des: "An elevator is a critical vertical transportation system, designed to efficiently move people or goods between floors in a building,",
+    des: "We believe in crafting digital experiences that make an impact. Specializing in content creation, and digital strategy, our mission is to elevate brands by creating compelling stories and memorable visuals.",
   },
   {
     id: 6,
     icon: <IoIosInformationCircle />,
     title: "Prospera Social",
-    des: "Prospera Social is dedicated to transforming brands through impactful digital strategies and data-driven solutions.",
+    des: "We believe that every brand has a unique story to tell. Our team of skilled marketers, designers, and strategists collaborates closely with clients to uncover what makes their brand special.",
   },
 ];
