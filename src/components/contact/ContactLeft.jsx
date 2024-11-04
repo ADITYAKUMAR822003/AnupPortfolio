@@ -29,16 +29,19 @@ const ContactLeft = () => {
         <h3 className="text-3xl font-bold text-white">Anup Nadgiri</h3>
         <p className="text-lg font-normal text-gray-400">Social Media Expert</p>
         <p className="text-base text-gray-400 tracking-wide">
-          Successful track record of contributing at Senior Positions for more
-          than 7 years with Spa and salon industry and functional experience in
-          Training & Consulting, Operations, Quality, with leading organizations
-          across India, PUNE, MUMBAI, BANGLORE. Enthusiastic Learner!
+          Social Media Specialist with a deep understanding of platform
+          algorithms, audience segmentation, and content optimization, dedicated
+          to creating impactful campaigns that inspire loyalty and drive
+          measurable results.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+91 7776060053</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">worldwidesocialmediaexpert@gmail.com</span>
+          Email:{" "}
+          <span className="text-lightText">
+            worldwidesocialmediaexpert@gmail.com
+          </span>
         </p>
       </div>
       <div className="flex flex-col gap-4">

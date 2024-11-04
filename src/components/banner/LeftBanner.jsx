@@ -6,9 +6,7 @@ import Media from "./Media";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: [
-      "Social Media Expert.",
-    ],
+    words: ["Social Media Expert."],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -31,10 +29,10 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          Successful track record of contributing at Senior Positions for more
-          than 7 years with Spa and salon industry and functional experience in
-          Training & Consulting, Operations, Quality, with leading organizations
-          across India, PUNE, MUMBAI, BANGLORE. Enthusiastic Learner!
+          Social Media Specialist with a deep understanding of platform
+          algorithms, audience segmentation, and content optimization, dedicated
+          to creating impactful campaigns that inspire loyalty and drive
+          measurable results.
         </p>
       </div>
       {/* Media */}

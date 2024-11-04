@@ -55,9 +55,9 @@ const Contact = () => {
     if (contactValidation()) {
       try {
         var data = {
-          service_id: "service_hi7yd7r",
-          template_id: "template_jfpq9vc",
-          user_id: "-1NF1mlZc2wnrzML_",
+          service_id: "service_7mypn15",
+          template_id: "template_ft0rars",
+          user_id: "Z7UuvYrx_5aYQbjyb",
           template_params: {
             from_name: username,
             from_email: email,

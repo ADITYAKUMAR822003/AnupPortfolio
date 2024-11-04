@@ -22,20 +22,17 @@ const Experience = () => {
           <ResumeCard
             title="Marketing & CRM Specialist"
             subTitle="Techmash Worldwide | Digital Marketing Agency (2017 - Present)"
-            result="Pune, Maharashtra, India"
-            des="As a Marketing & CRM Specialist, your role is to develop, execute, and refine strategies aimed at attracting and retaining customers. This involves overseeing the entire customer journey, from lead generation to post-purchase engagement, with a strong focus on enhancing customer satisfaction and loyalty. The position requires expertise in both digital marketing tactics and CRM systems to create personalized, data-driven campaigns."
+            des="As a Marketing & CRM Specialist, your role is to develop, execute, and refine strategies aimed at attracting and retaining customers. This involves overseeing the entire customer journey, from lead generation to post-purchase engagement, with a strong focus on enhancing customer satisfaction and loyalty."
           />
           <ResumeCard
             title="Cluster Manager"
             subTitle="Four Fountains De-Stress Spa (2016 - Present)"
-            result="Pune, Maharashtra, India"
-            des="The role of a Cluster Manager involves overseeing operations across multiple locations, ensuring consistent performance, meeting financial and operational targets, and maintaining high standards for customer satisfaction. Cluster Managers often work in industries like retail, hospitality, healthcare, logistics, and other multi-site operations. They act as a bridge between individual site managers and regional or corporate management, implementing strategies that align with company objectives."
+            des="The role of a Cluster Manager involves overseeing operations across multiple locations, ensuring consistent performance, meeting financial and operational targets, and maintaining high standards for customer satisfaction. Cluster Managers often work in industries like retail, hospitality, healthcare, logistics, and other multi-site operations."
           />
           <ResumeCard
             title="Business Development Specialist"
             subTitle="HR wellness spa and salon (2016 - Present)"
-            result="Pune, Maharashtra, India"
-            des="A Business Development Specialist focuses on expanding a company's reach, increasing revenue, and fostering strategic partnerships. This role typically involves identifying new business opportunities, researching potential markets, and building relationships with clients. Business Development Specialists work closely with the sales and marketing teams to support growth initiatives and often act as a bridge between the company and its potential clients or partners."
+            des="A Business Development Specialist focuses on expanding a company's reach, increasing revenue, and fostering strategic partnerships. This role typically involves identifying new business opportunities, researching potential markets, and building relationships with clients."
           />
         </div>
       </div>

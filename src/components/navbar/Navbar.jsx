@@ -61,11 +61,10 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Successful track record of contributing at Senior Positions
-                  for more than 7 years with Spa and salon industry and
-                  functional experience in Training & Consulting, Operations,
-                  Quality, with leading organizations across India, PUNE,
-                  MUMBAI, BANGLORE. Enthusiastic Learner!
+                  Social Media Specialist with a deep understanding of platform
+                  algorithms, audience segmentation, and content optimization,
+                  dedicated to creating impactful campaigns that inspire loyalty
+                  and drive measurable results.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">

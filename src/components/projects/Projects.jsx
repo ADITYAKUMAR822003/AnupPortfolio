@@ -46,13 +46,13 @@ const Projects = () => {
           src={seoDevelopment}
         />
         <ProjectsCard
-          title="Elevator"
-          des="Elevators are the backbone of vertical transportation, enhancing accessibility and efficiency in buildings of all sizes, from residential complexes to towering skyscrapers."
+          title="Elevate Media"
+          des="At Elevate Media, we believe in crafting compelling narratives that elevate brands and capture attention. As a full-service digital media agency, our team is dedicated to delivering strategic, high-quality content that resonates with audiences across platforms."
           src={elevator}
         />
         <ProjectsCard
-          title="Consultancy services IT and non-IT"
-          des="Consultancy services in both IT and non-IT domains are essential for organizations seeking to navigate the complexities of today’s business landscape."
+          title="Prospera Social"
+          des="Prospera Social is dedicated to transforming brands through impactful digital strategies and data-driven solutions. We specialize in creating meaningful connections between businesses and their audiences, combining innovative content, targeted campaigns, and measurable outcomes to drive sustained growth."
           src={consultancyServices}
         />
       </div>

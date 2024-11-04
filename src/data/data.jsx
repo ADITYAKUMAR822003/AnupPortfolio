@@ -32,13 +32,13 @@ export const featuresData = [
   {
     id: 5,
     icon: <MdElevator />,
-    title: "Elevator",
+    title: "Elevate Media",
     des: "An elevator is a critical vertical transportation system, designed to efficiently move people or goods between floors in a building,",
   },
   {
     id: 6,
     icon: <IoIosInformationCircle />,
-    title: "Consultancy services IT and non-IT",
-    des: "Providing expert consultancy services in IT and non-IT sectors to drive strategic growth, optimize",
+    title: "Prospera Social",
+    des: "Prospera Social is dedicated to transforming brands through impactful digital strategies and data-driven solutions.",
   },
 ];
