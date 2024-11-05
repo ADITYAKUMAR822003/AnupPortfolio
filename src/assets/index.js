@@ -6,7 +6,7 @@ import socialMedia from "./images/projects/socialMedia.jpg";
 import webDevelopment from "./images/projects/webDevelopment.jpg";
 import appDevelopment from "./images/projects/appDevelopment.jpg";
 import seoDevelopment from "./images/projects/seoDevelopment.jpg";
-import elevator from "./images/projects/elevator.jpg";
+import googleAdds from "./images/projects/googleAdds.jpg";
 import consultancyServices from "./images/projects/consultancyServices.jpg";
 import testimonialOne from "./images/testmonial/testimonialOne.jpg";
 import testimonialTwo from "./images/testmonial/testimonialTwo.jpg";
@@ -20,7 +20,7 @@ export {
   webDevelopment,
   appDevelopment,
   seoDevelopment,
-  elevator,
+  googleAdds,
   consultancyServices,
   testimonialOne,
   testimonialTwo,

@@ -8,7 +8,7 @@ import {
   appDevelopment,
   seoDevelopment,
   consultancyServices,
-  elevator,
+  googleAdds,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -48,7 +48,7 @@ const Projects = () => {
         <ProjectsCard
           title="Google Ads"
           des="We drive targeted growth through expertly managed Google Ads campaigns, leveraging data-driven strategies to maximize reach, and deliver measurable results for our clients."
-          src={elevator}
+          src={googleAdds}
         />
         <ProjectsCard
           title="Lead Conversion"

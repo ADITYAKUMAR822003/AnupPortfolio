@@ -25,7 +25,7 @@ const Footer = () => {
     );
   };
   const whatsappOpen = () => {
-    window.open(`https://wa.me/${9060722799}`, "_blank");
+    window.open(`https://wa.me/${7776060053}`, "_blank");
   };
 
   return (
