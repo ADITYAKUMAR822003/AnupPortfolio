@@ -1,7 +1,12 @@
 /** @format */
 
 import React from "react";
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaWhatsapp,
+} from "react-icons/fa";
 
 const Media = () => {
   const linkedinOpen = () => {
@@ -15,6 +20,9 @@ const Media = () => {
       "https://www.instagram.com/annu_71671?utm_source=qr&igsh=MWtxYWhhd2hkZG92aA==",
       "_blank"
     );
+  };
+  const whatsappOpen = () => {
+    window.open(`https://wa.me/${9060722799}`, "_blank");
   };
 
   return (
@@ -30,6 +38,9 @@ const Media = () => {
           </span>
           <span className="bannerIcon" onClick={instagramOpen}>
             <FaInstagram />
+          </span>
+          <span className="bannerIcon" onClick={whatsappOpen}>
+            <FaWhatsapp />
           </span>
         </div>
       </div>

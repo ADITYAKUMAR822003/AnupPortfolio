@@ -1,7 +1,12 @@
 /** @format */
 
 import React from "react";
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaWhatsapp,
+} from "react-icons/fa";
 import { contactImg } from "../../assets/index";
 
 const ContactLeft = () => {
@@ -17,6 +22,9 @@ const ContactLeft = () => {
       "_blank"
     );
   };
+  const whatsappOpen = () => {
+    window.open(`https://wa.me/${9060722799}`, "_blank");
+  };
 
   return (
     <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-4 lgl:p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
@@ -27,13 +35,6 @@ const ContactLeft = () => {
       />
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Anup Nadgiri</h3>
-        <p className="text-lg font-normal text-gray-400">Social Media Expert</p>
-        <p className="text-base text-gray-400 tracking-wide">
-          Social Media Specialist with a deep understanding of platform
-          algorithms, audience segmentation, and content optimization, dedicated
-          to creating impactful campaigns that inspire loyalty and drive
-          measurable results.
-        </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone:
           <a href="tel:+917776060053" className="text-lightText">
@@ -61,6 +62,9 @@ const ContactLeft = () => {
           </span>
           <span className="bannerIcon" onClick={instagramOpen}>
             <FaInstagram />
+          </span>
+          <span className="bannerIcon" onClick={whatsappOpen}>
+            <FaWhatsapp />
           </span>
         </div>
       </div>

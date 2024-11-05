@@ -21,18 +21,18 @@ const Achievement = () => {
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Marketing & CRM Specialist"
-            subTitle="Techmash Worldwide | Digital Marketing Agency (2017 - Present)"
-            des="As a Marketing & CRM Specialist, your role is to develop, execute, and refine strategies aimed at attracting and retaining customers. This involves overseeing the entire customer journey, from lead generation to post-purchase engagement, with a strong focus on enhancing customer satisfaction and loyalty."
+            subTitle="Techmash Worldwide | Digital Marketing Agency"
+            des="As a Marketing & CRM Specialist, My role is to develop, execute, and refine strategies aimed at attracting and retaining customers. This involves overseeing the entire customer journey, from lead generation to post-purchase engagement, with a strong focus on enhancing customer satisfaction and loyalty."
           />
           <ResumeCard
-            title="Cluster Manager"
-            subTitle="Four Fountains De-Stress Spa"
-            des="The role of a Cluster Manager involves overseeing operations across multiple locations, ensuring consistent performance, meeting financial and operational targets, and maintaining high standards for customer satisfaction. Cluster Managers often work in industries like retail, hospitality, healthcare, logistics, and other multi-site operations."
-          />
-          <ResumeCard
-            title="Business Development Specialist"
+            title="Marketing Manager"
             subTitle="HR wellness spa and salon"
-            des="A Business Development Specialist focuses on expanding a company's reach, increasing revenue, and fostering strategic partnerships. This role typically involves identifying new business opportunities, researching potential markets, and building relationships with clients."
+            des="As a Marketing Manager, I am dedicated to developing and executing innovative marketing strategies that drive brand awareness, engage target audiences, and increase revenue. With a strong analytical mindset and a passion for creativity, I leverage data-driven insights to optimize campaigns and deliver measurable results in competitive markets."
+          />
+          <ResumeCard
+            title="Business Marketing Specialist"
+            subTitle="HR wellness spa and salon"
+            des="A Business Marketing Specialist is responsible for developing and executing marketing strategies to drive business growth and enhance brand visibility. This role involves conducting market research, analyzing consumer behavior, and leveraging various marketing channels to reach target audiences effectively."
           />
         </div>
       </div>

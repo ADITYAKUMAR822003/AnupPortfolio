@@ -2,7 +2,12 @@
 
 import React from "react";
 import { Link } from "react-scroll";
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaWhatsapp,
+} from "react-icons/fa";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 
@@ -19,6 +24,9 @@ const Footer = () => {
       "_blank"
     );
   };
+  const whatsappOpen = () => {
+    window.open(`https://wa.me/${9060722799}`, "_blank");
+  };
 
   return (
     <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
@@ -33,6 +41,9 @@ const Footer = () => {
           </span>
           <span className="bannerIcon" onClick={instagramOpen}>
             <FaInstagram />
+          </span>
+          <span className="bannerIcon" onClick={whatsappOpen}>
+            <FaWhatsapp />
           </span>
         </div>
       </div>
