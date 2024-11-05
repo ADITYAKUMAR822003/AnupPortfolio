@@ -112,7 +112,7 @@ const Testimonial = () => {
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                     Developement and Collaboration
                   </p>
-                  <h3 className="text-2xl font-bold">Aditya kumar</h3>
+                  <h3 className="text-2xl font-bold">Aditya Kumar</h3>
                   <p className="text-base tracking-wide text-gray-500">
                     Android & iOS Developer
                   </p>

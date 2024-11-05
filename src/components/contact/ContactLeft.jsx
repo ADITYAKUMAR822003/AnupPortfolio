@@ -35,13 +35,19 @@ const ContactLeft = () => {
           measurable results.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+91 7776060053</span>
+          Phone:
+          <a href="tel:+917776060053" className="text-lightText">
+            +91 7776060053
+          </a>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email:{" "}
-          <span className="text-lightText">
+          Email:
+          <a
+            href="mailto:worldwidesocialmediaexpert@gmail.com"
+            className="text-lightText"
+          >
             worldwidesocialmediaexpert@gmail.com
-          </span>
+          </a>
         </p>
       </div>
       <div className="flex flex-col gap-4">
